@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Solaris" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Set splash screen theme -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_androidify</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+
+    </style>
+</resources>
