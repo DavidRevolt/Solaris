@@ -62,7 +62,7 @@ It integrates **points of interest (POI)** (AI-generated using Firebase AI Logic
 2. **Sync Related Data** - `SyncRelatedDataUseCase` launches coroutines to sync weather, POI, and other related data  
                            from their dedicated repositories in parallel, emitting real-time sync status updates. 
 3. **Store & Cache** - Data is cached locally using Room for offline access.
-4. **Display Results** - *GetLocationsWithRelatedDataUseCase* aggregates the data and exposes it to the UI as `LocationWithRelatedData`.
+4. **Display Results** - `GetLocationsWithRelatedDataUseCase` aggregates the data and exposes it to the UI as `LocationWithRelatedData`.
 5. **Background Sync** - WorkManager ensures data stays up-to-date by running periodic syncs in the background.
 
 
